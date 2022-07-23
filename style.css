@@ -128,7 +128,7 @@
     font-family: 'Poppins', sans-serif;
   }
   html,body{
-    display: grid;
+    display: space-between;
     height: 100%;
     width: 100%;
     place-items: center;
