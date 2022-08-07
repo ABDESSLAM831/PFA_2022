@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="auto" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Realisation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_realisation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="inner-width">
+        <a href="accueil.html" class="logo"><img src="logo.png" alt="EL HAJJAM Topographie"></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="accueil.html"><i class="fas fa-home home"></i> Accueil </a>
+          <a href="presentaion.html"><i class="fas fa-align-left about"></i> Presentation </a>
+          <a href="realisation.html"><i class="fab fa-buffer works"></i> Réalisations </a>
+          <a href="mon_compte.html"><i class="fas fa-users team"></i> Mon Compte </a>
+          <a href="contact.html"><i class="fas fa-headset contact"></i> Contact </a>
+        </nav>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      $(".menu-toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
+    
+    </body>
+</html>
+
