@@ -134,6 +134,44 @@
     place-items: center;
     background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   }
+
+ footer{
+  flex-shrink: 0;
+  border-top: 1px dashed #000;
+  width: 100%;
+  background: white;
+  color: #333;
+ } 
+ .contenu-footer {
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 50px 0 100px;
+
+ }
+ .bloc {
+  width: 25%;
+  margin: 0 30px;
+ }
+ .footer-service h3,
+ .footer-contact h3,
+ .footer-media h3{
+  font-size: 25px;
+  padding-bottom: 20px;
+ }
+
+ .footer-contact p {
+  padding: 2px 0;
+  font-style: italic;
+  font-size: medium;
+ }
+ .footer-contat iframe {
+  padding: 50px;
+ }
+
   .wrapper .button{
     display: inline-block;
     height: 60px;
